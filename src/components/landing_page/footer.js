@@ -6,7 +6,7 @@ class Footer extends Component {
   state = {};
   render() {
     return (
-      <div className="footer_part">
+      <div className="container-fluid footer_part">
         <div className="logo">
           <img src={logo} height="64" width="200" alt="Stopify" />
         </div>

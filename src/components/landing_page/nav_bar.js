@@ -5,7 +5,7 @@ import "./styles/navbar_style.css";
 const NavBar = ()=>{
   
   return (
-    <nav className="navbar navbar-expand-lg fixed-top navbar-dark navbar-custom">
+    <nav className="navbar navbar-expand-lg fixed-top navbar-dark">
       <a className="navbar-brand" href="#">
         <div className="col-6">
           <img src={logo} height="64" width="200" alt="Stopify" />

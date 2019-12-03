@@ -1,17 +1,17 @@
+
 .banner {
-  width: 100%;
   text-align: center;
-  margin: 0;
-  padding: 10;
+  margin: 0px;
+  padding: 10px;
   background-color: #f037a5;
   background: linear-gradient(#f037a5 -60%, #fae62d 140%);
   height: 660px;
-  justify-content: center;
-  align-items: center;
 }
 
+
 .banner_item{
-  padding: 15%;
+    margin: 50% auto;
+    position: relative;
 }
 
 .banner h1 {
@@ -21,7 +21,7 @@
   font-size: 80px;
   line-height: 92px;
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 8%;
 }
 
 .button_banner {
@@ -39,6 +39,7 @@
   min-width: 160px;
   text-transform: uppercase;
   text-decoration: none;
+  font-size: 24px;
 }
 
 .button_banner:hover {
@@ -74,4 +75,40 @@
   width: 300px;
   border: 2px solid;
   size: inherit;
+}
+
+.intro-section{
+  margin: 5%;
+  padding: 5%;
+  display: flex;
+}
+
+.intro-section-right{
+  flex: 0;
+} 
+.intro-section-left{
+  flex: 1;
+  font-family: cursive;
+  padding: 10px;
+}
+/* Larger devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .banner_item{
+    margin: 16% auto;
+    position: relative;
+  }
+  
+  .banner h1 {
+    margin-bottom: 1%;
+  }
+
+  .intro-section-right{
+    flex: 1;
+  }
+  
+  .card{
+    margin-left:20px;
+    margin-right:20px;
+    text-align: center;
+  }
 }

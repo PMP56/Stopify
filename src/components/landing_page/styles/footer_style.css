@@ -1,25 +1,17 @@
 .footer_part {
-  padding: 100px 100px;
-  height: 100%;
-  padding-top: 30px;
+  min-height:150px;
   color: white;
   background-color: black;
+  padding: 10px;
+  text-align: center;
 }
 
-.logo {
-  padding: 0px 40px;
+.contents,.logo{
   float: left;
-  width: 30%;
 }
 
 li {
-  padding-right: 50px;
-}
-
-.contents {
-  padding-left: 300px;
-  float: left;
-  width: 70%;
+  padding-left: 15px;
 }
 
 .contents a {
@@ -31,4 +23,24 @@ li {
 .contents a:hover {
   color: #1db954;
   text-decoration: none;
+}
+
+
+
+
+/* Larger devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .footer_part {
+    min-height:100px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .contents{
+    float: right;
+    margin-right: 80px;
+  }
+  
 }

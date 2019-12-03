@@ -1,9 +1,6 @@
-.navbar-nav {
-  float: right;
-}
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.63);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .navbar-dark {
@@ -38,3 +35,11 @@
 .navbar {
   min-height: 32px;
 }
+
+/* Larger devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .navbar-nav{
+    float:right;
+  }
+}
+

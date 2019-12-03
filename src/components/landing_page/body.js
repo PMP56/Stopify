@@ -9,7 +9,7 @@ class Body extends Component {
   state = {};
   render() {
     return (
-      <React.Fragment>
+      <div className="container-fluid" style={{margin:"auto",padding:"0"}}>
         <div className="banner">
           <div className="banner_item">
             <h1>Music for everyone</h1>
@@ -18,58 +18,60 @@ class Body extends Component {
           </div>
         </div>
 
+        <div className="container-fluid">
+          <div className="intro-section">
+            <div className="intro-section-left">
+              <h1>
+                Stopify gives you instant access to millions of songs  from old
+                favorites to the latest hits. Just hit play to stream anything you
+                like.
+              </h1>
+              <br/>
+
+              {/* <h3>Music</h3>
+              <h6>
+                There are millions of songs on Spotify. Play your favorites, discover new tracks, and build the perfect collection.
+              </h6>
+              
+              <h3>Playlists</h3>
+              <h6>
+                You’ll find readymade playlists to match your mood, put together by music fans and experts.
+              </h6>
+              
+              <h3>New Releases</h3>
+              <h6>
+              Hear this week’s latest singles and albums, and check out what’s hot in the Top 50.
+              </h6> */}
+            </div>
+            <div className="intro-section-right">
+              <img src={image1} class="img-fluid" alt="Responsive image"/>
+            </div>
+          </div>
+        </div>
+
         <div className="card-group">
           <div className="card">
-            <img className="card-img-top" src={image1} alt="Card image cap"/>
+            <img className="card-img-top" src={image3} alt="Card image cap"/>
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+              <h5 className="card-title">Listen everywhere</h5>
             </div>
           </div>
           <div className="card">
             <img className="card-img-top"src={image2} alt="Card image cap"/>
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+              <h5 className="card-title">Unlimited, ad-free music</h5>
             </div>
           </div>
           <div className="card">
             <img className="card-img-top" src={image3} alt="Card image cap"/>
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+              <h5 className="card-title">Download music & listen offline</h5>
             </div>
           </div>
         </div>
+        <br/>
         
-        {/* <div className="content">
-          <p>
-            Stopify gives you instant access to millions of songs – from old
-            favorites to the latest hits. Just hit play to stream anything you
-            like.
-          </p>
-          <div className="images">
-            <div className="image_contents">
-              <img src={image1} alt="stopify" />
-              <br />
-              <h5>Listen everywhere</h5>
-            </div>
-            <div className="image_contents">
-              <img src={image3} alt="stopify" />
-              <br />
-              <h5>Unlimited, ad-free music</h5>
-            </div>
-            <div className="image_contents">
-              <img src={image2} alt="stopify" />
-              <br />
-              <h5>Download music & listen offline</h5>
-            </div>
-          </div>
-        </div> */}
-      </React.Fragment>
+      </div>
     );
   }
 }
