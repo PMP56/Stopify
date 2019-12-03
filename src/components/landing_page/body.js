@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Banner from "../images/banner2.jpg";
-import image1 from "../images/image1.jpg";
-import image2 from "../images/image2.jpg";
-import image3 from "../images/image3.jpg";
+import Banner from "./images/banner2.jpg";
+import image1 from "./images/image1.jpg";
+import image2 from "./images/image2.jpg";
+import image3 from "./images/image3.jpg";
 import "./styles/body_style.css";
 
 const banner_style = { backgroundImage: `url(${Banner})` };

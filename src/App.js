@@ -1,19 +1,15 @@
-import React, { Component } from "react";
-import "./App.css";
-import Navigation from "./components/navigation.jsx";
-import Body from "./components/body.jsx";
-import Footer from "./components/footer.jsx";
-import NavBar from "./components/nav_bar.jsx";
+import React from "react";
 
-class App extends Component {
+import "./App.css";
+import LandingPage from "./components/landing_page/landing_page"
+
+class App extends React.Component {
   state = {};
   render() {
     return (
-      <React.Fragment>
-        <NavBar />
-        <Body />
-        <Footer />
-      </React.Fragment>
+      <div>
+        <LandingPage/>
+      </div>
     );
   }
 }

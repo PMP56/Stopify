@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../images/logo2.png";
+import logo from "./images/logo2.png";
 import "./styles/navigation_style.css";
 
 class Navigation extends Component {
@@ -22,7 +22,6 @@ class Navigation extends Component {
               <li>
                 <a href="https://www.google.com">Help</a>
               </li>
-              <li>|</li>
               <li>
                 <a href="https://www.google.com">Log In</a>
               </li>
