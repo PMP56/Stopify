@@ -5,18 +5,17 @@ import image2 from "./images/image2.jpg";
 import image3 from "./images/image3.jpg";
 import "./styles/body_style.css";
 
-const banner_style = { backgroundImage: `url(${Banner})` };
-
 class Body extends Component {
   state = {};
   render() {
     return (
       <React.Fragment>
-        <div className="banner" style={banner_style}>
-          <h1>Music for everyone</h1>
-          <h5>There is a music for everyone.</h5>
-          <br />
-          <button className="button_banner">Get Started</button>
+        <div className="banner">
+          <div className="banner_item">
+            <h1>Music for everyone</h1>
+            <br/>
+            <button className="button_banner">Get Started</button>
+          </div>
         </div>
         <div className="content">
           <p>
