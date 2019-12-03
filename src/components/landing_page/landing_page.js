@@ -7,7 +7,7 @@ import NavBar from "./nav_bar";
 const App = ()=>{  
     return (
         <React.Fragment>
-        <Navigation />
+        <NavBar />
         <Body />
         <Footer />
         </React.Fragment>

@@ -5,10 +5,10 @@ import "./styles/navbar_style.css";
 const NavBar = ()=>{
   
   return (
-    <nav className="navbar navbar-expand-lg fixed-top navbar-dark ">
+    <nav className="navbar navbar-expand-lg fixed-top navbar-dark navbar-custom">
       <a className="navbar-brand" href="#">
         <div className="col-6">
-          <img src={logo} height="40" width="125" alt="Stopify" />
+          <img src={logo} height="64" width="200" alt="Stopify" />
         </div>
       </a>
       <button
@@ -31,9 +31,6 @@ const NavBar = ()=>{
               <a className="nav-link" href="#">
                 Help
               </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link">|</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
