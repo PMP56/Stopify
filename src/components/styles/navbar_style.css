@@ -1,0 +1,38 @@
+.navbar-nav {
+  float: right;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.63);
+}
+
+.navbar-dark {
+  color: white;
+}
+
+.navbar-nav > li {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-nav > li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+nav .navbar-nav li a:hover {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1db954;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 40px;
+}
+
+.navbar {
+  min-height: 32px;
+}

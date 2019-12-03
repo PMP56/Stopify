@@ -1,0 +1,55 @@
+.banner {
+  width: 100%;
+  padding: 300px 0px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 80px;
+}
+
+.button_banner {
+  border-radius: 30px;
+  background-color: red;
+  border: 2px solid black;
+  padding: 5px 40px;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.button_banner:hover {
+  border-radius: 30px;
+  background-color: white;
+  border: 2px solid black;
+  padding: 5px 40px;
+  color: red;
+}
+
+.content {
+  width: 100%;
+  padding: 40px 150px;
+  padding-bottom: 300px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.image_contents {
+  width: 33.33%;
+  text-align: center;
+  float: left;
+  padding: 20px 30px;
+}
+
+.image_contents h5 {
+  padding: 10px 10px;
+}
+
+.image_contents img {
+  height: 200px;
+  width: 300px;
+  border: 2px solid;
+  size: inherit;
+}
